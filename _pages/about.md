@@ -12,6 +12,7 @@ profile:
     <p>Pittsburgh, PA 15213</p>
     <p>Tepper School of Business</p>
     <p>Carnegie Mellon University</p>
+    <p>Email: <a href="liyingq@andrew.cmu.edu">liyingq@andrew.cmu.edu</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
