@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate in Business Technologies (minor in Machine Learning) at the Tepper School of Business, Carnegie Mellon University. My research examines how artificial intelligence reshapes managerial decision-making, consumer search, and platform markets. I combine structural modeling, machine learning, reinforcement learning, and generative AI to study how firms, consumers, and platforms make decisions in digital environments.
+I am a Ph.D. candidate in Business Technologies, with a minor in Machine Learning, at Carnegie Mellon University, where I am fortunate to be co-advised by Kannan Srinivasan and Param Vir Singh. Prior to joining Carnegie Mellon, I received an M.A. in Economics from Duke University and a B.S. in Finance from Peking University. My research examines how artificial intelligence reshapes managerial decision-making, consumer search, and platform markets. I combine structural modeling, machine learning, reinforcement learning, and generative AI to study how firms, consumers, and platforms make decisions in digital environments.
