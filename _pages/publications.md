@@ -10,7 +10,7 @@ nav_order: 2
 ### Publications
 
 - **Personalization, consumer search, and algorithmic pricing**  
-  Liying Qiu, Yan Huang, Param Vir Singh, Kannan Srinivasan 
+  Liying Qiu, Yan Huang, Param Vir Singh, Kannan Srinivasan   
   *Marketing Science*, 2025.
 
 ### Working Papers
