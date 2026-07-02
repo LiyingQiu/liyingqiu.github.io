@@ -228,6 +228,7 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - about_einstein.md
   - readme_preview/
   - gems/
   - migrations/
