@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% if page._styles %}
+<style>
+  {{ page._styles }}
+</style>
+{% endif %}
+
+{% if page.description %}
+{{ page.description }}
+{% endif %}
+
+{{ content }}
+
+{% if page.related_publications %}
+## References
+
+{% bibliography --cited_in_order %}
+{% endif %}
+
+{% if site.giscus and page.giscus_comments %}
+  {% include giscus.liquid %}
+{% endif %}
