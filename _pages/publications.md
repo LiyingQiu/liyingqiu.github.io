@@ -17,7 +17,8 @@ nav_order: 2
 
 - **A structural model of consumer search leveraging generative AI**  
   Liying Qiu, Param Vir Singh, Nitin Mehta, Kannan Srinivasan
+  Job Market Paper
 
 - **Testing theoretical alignment in large language models: Evidence from insurance choices**  
-  Liying Qiu, Param Vir Singh, Kannan Srinivasan
+  Liying Qiu, Param Vir Singh, Kannan Srinivasan  
   Major Revision at *Information Systems Research*
