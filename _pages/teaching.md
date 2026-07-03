@@ -3,12 +3,12 @@ layout: page
 permalink: /teaching/
 title: Teaching
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <style>
   .teaching-page {
-    max-width: 850px;
+    max-width: 950px;
     margin: 0 auto;
   }
 
@@ -20,45 +20,65 @@ nav_order: 3
   }
 
   .teaching-section {
-    margin-bottom: 2.2rem;
-    padding: 1.5rem 1.7rem;
+    margin-bottom: 2.4rem;
+    padding: 1.7rem 1.9rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 14px;
     background: var(--global-card-bg-color);
   }
 
   .teaching-role {
-    margin-bottom: 1.2rem;
-    font-size: 1.35rem;
-    font-weight: 600;
+    margin-bottom: 1.35rem;
+    font-size: 1.45rem;
+    font-weight: 700;
     color: var(--global-theme-color);
   }
 
   .course-list {
     display: grid;
-    gap: 1.15rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem 1.25rem;
+  }
+
+  .course-list.single-course {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .course-list.single-course .course-item {
+    max-width: none;
   }
 
   .course-item {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--global-divider-color);
-  }
-
-  .course-item:last-child {
-    padding-bottom: 0;
-    border-bottom: none;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background: var(--global-bg-color);
+    box-sizing: border-box;
   }
 
   .course-title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.02rem;
-    margin-bottom: 0.2rem;
+    line-height: 1.4;
+    margin-bottom: 0.35rem;
   }
 
   .course-level {
     font-style: italic;
     color: var(--global-text-color-light);
     font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 700px) {
+    .teaching-section {
+      padding: 1.35rem 1.25rem;
+    }
+
+    .course-list,
+    .course-list.single-course {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
@@ -71,7 +91,7 @@ My teaching experience spans MBA, MSBA, undergraduate, and PhD courses, with a f
 <section class="teaching-section">
   <h2 class="teaching-role">Instructor</h2>
 
-  <div class="course-list">
+  <div class="course-list single-course">
     <div class="course-item">
       <div class="course-title">Math Skills Workshop</div>
       <div class="course-level">MBA</div>
